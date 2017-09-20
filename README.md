@@ -51,6 +51,10 @@ It is not suggested writing the connection strings directly in the .yml file. I 
 
 [How to use Service Bus Queues with Node.js](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-nodejs-how-to-use-queues)
 
+[Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/)
+
+[Azure Service Bus Explorer](https://github.com/paolosalvatori/ServiceBusExplorer/releases)
+
 ## Disclaimer ##
 
 You have the permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.
