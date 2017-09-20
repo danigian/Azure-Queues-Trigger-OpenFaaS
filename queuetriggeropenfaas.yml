@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: queuetriggeropenfaas
+  labels:
+    purpose: queuetriggeropenfaas
+spec:
+  containers:
+  - name: queuetriggeropenfaas-container
+    image: danigian/queuetriggeropenfaas:1.0.5
+    env:
+    - name: AZURE_QUEUE_PROVIDER
+      value: "storage" #Can be "servicebus" or "storage"
+    - name: AZURE_QUEUE_NAME
+      value: "your-queue-name"
+    - name: AZURE_SERVICEBUS_CONNECTION_STRING
+      value: "your-servicebus-connection-string"
+    - name: AZURE_STORAGE_CONNECTION_STRING
+      value: "your-storage-connection-string"
